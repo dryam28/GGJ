@@ -10,14 +10,39 @@ datasource db {
   url      = "file:./data.db"
 }
 
+
+// Participant Schema
 model Participant {
-  ci String @id @unique
-	equipo String
-	nombre String
-	institucion String
-	fecha DateTime @default(now())
-	telefono Int
-	correo String
-	centro String
+    id String @id @unique
+	team Team @relation(fields: [team_id],references: [id_team])
+	team_id Int
+	name String
+	institution String
+	date DateTime @default(now())
+	phone Int
+	email String
+	area String
+	ext Boolean
+}
+// Team schema
+model Team{
+	id_team Int @id @default(autoincrement())
+	name String
+	teammates  Participant[]
+	pax Int @default(4)// 4-5 Participants
+}
+
+//Participant Next
+model  ParticipantNext{
+ 	//child data
+	id String @id @unique
+	name String
+	//responsible data
+	responsible String
+ 	responsibleId String	
+	responsiblePhone Int
+	institution String
+	date DateTime @default(now())
+	email String
 	ext Boolean
 }

@@ -1,0 +1,7 @@
+requisitos funcionales
+
+-registrar equipo
+-registrar menor
+	*menor 
+	*tutor
+	-=area
