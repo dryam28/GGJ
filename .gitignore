@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-./prisma/data.db
+./prisma/*
 
 # dependencies
 /node_modules
@@ -36,3 +36,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+prisma/data.db
+prisma/migrations/20221102042413_microcord/migration.sql
+prisma/migrations/20221102152604_cdeamera/migration.sql
+prisma/migrations/20221102160159_belive/migration.sql
+prisma/migrations/20221103024513_damag/migration.sql
+prisma/migrations/20221103025132_uniq/migration.sql
+prisma/migrations/20221103124212_clouds/migration.sql
+prisma/data.db
+prisma/data.db
