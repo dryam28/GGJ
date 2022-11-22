@@ -4,10 +4,14 @@ const prisma = new PrismaClient();
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
-    //Ask for team
-    //Save team
-    //Ask for Participants
-    //Save Participants
+    const id_check = await prisma.participant.findFirst({
+      where: { id: req.body.team.id }
+    });
+
+    if (id_check !== null || email_check !== null) {
+      return true;
+    }
+
     res.send(200);
   } else {
     console.log();
