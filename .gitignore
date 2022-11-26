@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+prisma/migrations/20221102042413_microcord/migration.sql
+prisma/migrations/20221102152604_cdeamera/migration.sql
+prisma/migrations/20221102160159_belive/migration.sql
+prisma/migrations/20221103024513_damag/migration.sql
+prisma/migrations/20221103025132_uniq/migration.sql
+prisma/migrations/20221103124212_clouds/migration.sql
+prisma/migrations/20221115153338_mucosa/migration.sql
+prisma/migrations/20221121211100_aged/migration.sql
+prisma/migrations/20221126145002_next_phone/migration.sql
