@@ -5,7 +5,7 @@ const prisma = new PrismaClient();
 export default async function handler(req, res) {
   if (req.method === 'POST') {
     const id_check = await prisma.participant.findFirst({
-      where: { id: req.body.team.id }
+      where: { id: req.body.id }
     });
 
     if (id_check !== null || email_check !== null) {
