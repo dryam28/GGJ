@@ -8,10 +8,10 @@ export default async function handler(req, res) {
       where: { id: req.body.id }
     });
 
-    if (id_check !== null || email_check !== null) {
+    if (id_check !== null ) {
       return true;
     }
-
+    const user = await prisma.ParticipantNext.create({ data: req.body })
     res.send(200);
   } else {
     console.log();
