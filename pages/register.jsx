@@ -1,17 +1,26 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import EULA from "../components/RegisterForms/EULA";
 import MembersData from "../components/RegisterForms/MembersData";
 import GeneralData from "../components/RegisterForms/GeneralData";
 import End from "../components/End";
+import { useStoreActions, useStoreState } from "easy-peasy";
 
 const Register = () => {
+	const cleanData = useStoreActions((state) => state.cleanData);
+	const sendData = useStoreActions((state) => state.sendData);
+
+	useEffect(() => {
+		cleanData();
+	}, []);
+
 	const handleNext = (index) => {
 		setCurrentForm(forms[index].form);
 	};
 
 	const handleSubmit = () => {
 		alert("submit");
+		sendData();
 		setCurrentForm(forms[3].form);
 	};
 

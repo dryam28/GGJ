@@ -1,40 +1,38 @@
+import { useStoreActions, useStoreState } from "easy-peasy";
 import Link from "next/link";
 
 const GeneralData = ({ handleNext }) => {
+	const team = useStoreState((state) => state.team);
+	const addTeamInfo = useStoreActions((actions) => actions.addTeamInfo);
+
 	return (
 		<>
 			<div className="mb-3">
 				<label htmlFor="exampleFormControlInput1" className="form-label">
 					¿Cuál es el nombre de tu equipo?
 				</label>
-				<input type="text" className="form-control" />
+				<input
+					autoFocus
+					type="text"
+					className="form-control"
+					value={team.name}
+					onChange={(e) =>
+						addTeamInfo({ name: e.target.value, desc: team.desc })
+					}
+				/>
 			</div>
 			<div className="mb-3">
 				<label htmlFor="exampleFormControlTextarea1" className="form-label">
 					Déjanos conocerlos
 				</label>
-				<textarea className="form-control" rows={12} defaultValue={""} />
-			</div>
-			<div>
-				<div>¿Cuántos participantes son?</div>
-				<input
-					className="form-check-input"
-					style={{ cursor: "pointer" }}
-					name="inlineRadioOptions"
-					type="radio"
+				<textarea
+					className="form-control"
+					rows={12}
+					value={team.desc}
+					onChange={(e) =>
+						addTeamInfo({ name: team.name, desc: e.target.value })
+					}
 				/>
-				<label className="form-check-label ms-2" htmlFor="inlineRadio1">
-					4
-				</label>
-				<input
-					className="form-check-input ms-5"
-					style={{ cursor: "pointer" }}
-					name="inlineRadioOptions"
-					type="radio"
-				/>
-				<label className="form-check-label ms-2" htmlFor="inlineRadio2">
-					5
-				</label>
 			</div>
 			<div className="progress-bar mt-5">
 				<div className="progress" style={{ width: "30%" }}></div>

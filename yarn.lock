@@ -10,7 +10,11 @@
     "core-js-pure" "^3.25.1"
     "regenerator-runtime" "^0.13.4"
 
+<<<<<<< HEAD
 "@babel/runtime@^7.10.2", "@babel/runtime@^7.18.9":
+=======
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.17.2", "@babel/runtime@^7.18.9", "@babel/runtime@^7.9.2":
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
   "integrity" "sha512-EXpLCrk55f+cYqmHsSR+yD/0gAIMxxA9QK9lnQWzhMCvt+YmoBN7Zx94s++Kv0+unHk39vxNO8t+CMA2WSS3wA=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/@babel/runtime/-/runtime-7.19.4.tgz"
   "version" "7.19.4"
@@ -96,7 +100,11 @@
 
 "@popperjs/core@^2.11.6":
   "integrity" "sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw=="
+<<<<<<< HEAD
   "resolved" "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz"
+=======
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/@popperjs/core/-/core-2.11.6.tgz"
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
   "version" "2.11.6"
 
 "@prisma/client@^4.5.0":
@@ -268,11 +276,31 @@
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/ast-types-flow/-/ast-types-flow-0.0.7.tgz"
   "version" "0.0.7"
 
+<<<<<<< HEAD
+=======
+"asynckit@^0.4.0":
+  "integrity" "sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/asynckit/-/asynckit-0.4.0.tgz"
+  "version" "0.4.0"
+
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
 "axe-core@^4.4.3":
   "integrity" "sha512-32+ub6kkdhhWick/UjvEwRchgoetXqTK14INLqbGm5U2TzBkBNF3nQtLYm8ovxSkQWArjEQvftCKryjZaATu3w=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/axe-core/-/axe-core-4.4.3.tgz"
   "version" "4.4.3"
 
+<<<<<<< HEAD
+=======
+"axios@^1.1.3":
+  "integrity" "sha512-00tXVRwKx/FZr/IDVFt4C+f9FYairX517WoGCL6dpOntqLkZofjhu43F/Xl44UOpqa+9sLFDrG/XAnFsUYgkDA=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/axios/-/axios-1.1.3.tgz"
+  "version" "1.1.3"
+  dependencies:
+    "follow-redirects" "^1.15.0"
+    "form-data" "^4.0.0"
+    "proxy-from-env" "^1.1.0"
+
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
 "axobject-query@^2.2.0":
   "integrity" "sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/axobject-query/-/axobject-query-2.2.0.tgz"
@@ -283,6 +311,7 @@
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/balanced-match/-/balanced-match-1.0.2.tgz"
   "version" "1.0.2"
 
+<<<<<<< HEAD
 "boostrap@^2.0.0":
   "integrity" "sha512-JEeFMOweKeGXEM9rt95eaVISOkluG9aKcl0jQCETOVH9jynCZxuBZe2oWgcWJpj5wqYWZl625SnW7OgHT2Ineg=="
   "resolved" "https://registry.npmjs.org/boostrap/-/boostrap-2.0.0.tgz"
@@ -291,6 +320,11 @@
 "bootstrap@^5.2.2":
   "integrity" "sha512-dEtzMTV71n6Fhmbg4fYJzQsw1N29hJKO1js5ackCgIpDcGid2ETMGC6zwSYw09v05Y+oRdQ9loC54zB1La3hHQ=="
   "resolved" "https://registry.npmjs.org/bootstrap/-/bootstrap-5.2.2.tgz"
+=======
+"bootstrap@^5.2.2":
+  "integrity" "sha512-dEtzMTV71n6Fhmbg4fYJzQsw1N29hJKO1js5ackCgIpDcGid2ETMGC6zwSYw09v05Y+oRdQ9loC54zB1La3hHQ=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/bootstrap/-/bootstrap-5.2.2.tgz"
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
   "version" "5.2.2"
 
 "brace-expansion@^1.1.7":
@@ -359,6 +393,16 @@
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/color-name/-/color-name-1.1.4.tgz"
   "version" "1.1.4"
 
+<<<<<<< HEAD
+=======
+"combined-stream@^1.0.8":
+  "integrity" "sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/combined-stream/-/combined-stream-1.0.8.tgz"
+  "version" "1.0.8"
+  dependencies:
+    "delayed-stream" "~1.0.0"
+
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
 "concat-map@0.0.1":
   "integrity" "sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/concat-map/-/concat-map-0.0.1.tgz"
@@ -422,6 +466,14 @@
     "has-property-descriptors" "^1.0.0"
     "object-keys" "^1.1.1"
 
+<<<<<<< HEAD
+=======
+"delayed-stream@~1.0.0":
+  "integrity" "sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/delayed-stream/-/delayed-stream-1.0.0.tgz"
+  "version" "1.0.0"
+
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
 "dir-glob@^3.0.1":
   "integrity" "sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/dir-glob/-/dir-glob-3.0.1.tgz"
@@ -443,6 +495,22 @@
   dependencies:
     "esutils" "^2.0.2"
 
+<<<<<<< HEAD
+=======
+"easy-peasy@^5.1.0":
+  "integrity" "sha512-Gd5jzTRrWrE6r59014GXTzpcq5abJ5AMGxc4fzd9sM8PCy18evzxVF9MYlkkzdTnUI/Rbvf0sQW50ev8DXyNjw=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/easy-peasy/-/easy-peasy-5.1.0.tgz"
+  "version" "5.1.0"
+  dependencies:
+    "@babel/runtime" "^7.17.2"
+    "fast-deep-equal" "^3.1.3"
+    "immer" "^9.0.12"
+    "redux" "^4.1.2"
+    "redux-thunk" "^2.4.1"
+    "ts-toolbelt" "^9.6.0"
+    "use-sync-external-store" "^1.2.0"
+
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
 "emoji-regex@^9.2.2":
   "integrity" "sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/emoji-regex/-/emoji-regex-9.2.2.tgz"
@@ -773,6 +841,23 @@
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/flatted/-/flatted-3.2.7.tgz"
   "version" "3.2.7"
 
+<<<<<<< HEAD
+=======
+"follow-redirects@^1.15.0":
+  "integrity" "sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/follow-redirects/-/follow-redirects-1.15.2.tgz"
+  "version" "1.15.2"
+
+"form-data@^4.0.0":
+  "integrity" "sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/form-data/-/form-data-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "asynckit" "^0.4.0"
+    "combined-stream" "^1.0.8"
+    "mime-types" "^2.1.12"
+
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
 "frac@~1.1.2":
   "integrity" "sha512-w/XBfkibaTl3YDqASwfDUqkna4Z2p9cFSr1aHDt0WoMTECnRfBOv2WArlZILlqgWlmdIlALXGpM2AOhEk5W3IA=="
   "resolved" "https://registry.npmjs.org/frac/-/frac-1.1.2.tgz"
@@ -923,6 +1008,14 @@
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/ignore/-/ignore-5.2.0.tgz"
   "version" "5.2.0"
 
+<<<<<<< HEAD
+=======
+"immer@^9.0.12":
+  "integrity" "sha512-qenGE7CstVm1NrHQbMh8YaSzTZTFNP3zPqr3YU0S0UY441j4bJTg4A2Hh5KAhwgaiU6ZZ1Ar6y/2f4TblnMReQ=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/immer/-/immer-9.0.16.tgz"
+  "version" "9.0.16"
+
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
 "import-fresh@^3.0.0", "import-fresh@^3.2.1":
   "integrity" "sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/import-fresh/-/import-fresh-3.3.0.tgz"
@@ -1071,6 +1164,7 @@
   "integrity" "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/js-tokens/-/js-tokens-4.0.0.tgz"
   "version" "4.0.0"
+<<<<<<< HEAD
 
 "js-yaml@^4.1.0":
   "integrity" "sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA=="
@@ -1094,6 +1188,31 @@
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/json5/-/json5-1.0.1.tgz"
   "version" "1.0.1"
   dependencies:
+=======
+
+"js-yaml@^4.1.0":
+  "integrity" "sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA=="
+  "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/js-yaml/-/js-yaml-4.1.0.tgz"
+  "version" "4.1.0"
+  dependencies:
+    "argparse" "^2.0.1"
+
+"json-schema-traverse@^0.4.1":
+  "integrity" "sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg=="
+  "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz"
+  "version" "0.4.1"
+
+"json-stable-stringify-without-jsonify@^1.0.1":
+  "integrity" "sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw=="
+  "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz"
+  "version" "1.0.1"
+
+"json5@^1.0.1":
+  "integrity" "sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow=="
+  "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/json5/-/json5-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
     "minimist" "^1.2.0"
 
 "jsx-ast-utils@^2.4.1 || ^3.0.0", "jsx-ast-utils@^3.3.2":
@@ -1163,12 +1282,28 @@
     "braces" "^3.0.2"
     "picomatch" "^2.3.1"
 
+<<<<<<< HEAD
+=======
+"mime-db@1.52.0":
+  "integrity" "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/mime-db/-/mime-db-1.52.0.tgz"
+  "version" "1.52.0"
+
+"mime-types@^2.1.12":
+  "integrity" "sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/mime-types/-/mime-types-2.1.35.tgz"
+  "version" "2.1.35"
+  dependencies:
+    "mime-db" "1.52.0"
+
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
 "minimatch@^3.0.4", "minimatch@^3.1.1", "minimatch@^3.1.2":
   "integrity" "sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/minimatch/-/minimatch-3.1.2.tgz"
   "version" "3.1.2"
   dependencies:
     "brace-expansion" "^1.1.7"
+<<<<<<< HEAD
 
 "minimist@^1.2.0", "minimist@^1.2.6":
   "integrity" "sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g=="
@@ -1180,6 +1315,19 @@
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/ms/-/ms-2.1.2.tgz"
   "version" "2.1.2"
 
+=======
+
+"minimist@^1.2.0", "minimist@^1.2.6":
+  "integrity" "sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g=="
+  "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/minimist/-/minimist-1.2.7.tgz"
+  "version" "1.2.7"
+
+"ms@^2.1.1", "ms@2.1.2":
+  "integrity" "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
+  "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/ms/-/ms-2.1.2.tgz"
+  "version" "2.1.2"
+
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
 "ms@2.0.0":
   "integrity" "sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/ms/-/ms-2.0.0.tgz"
@@ -1386,6 +1534,14 @@
     "object-assign" "^4.1.1"
     "react-is" "^16.13.1"
 
+<<<<<<< HEAD
+=======
+"proxy-from-env@^1.1.0":
+  "integrity" "sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/proxy-from-env/-/proxy-from-env-1.1.0.tgz"
+  "version" "1.1.0"
+
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
 "punycode@^2.1.0":
   "integrity" "sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/punycode/-/punycode-2.1.1.tgz"
@@ -1396,7 +1552,11 @@
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/queue-microtask/-/queue-microtask-1.2.3.tgz"
   "version" "1.2.3"
 
+<<<<<<< HEAD
 "react-dom@^17.0.2 || ^18.0.0-0", "react-dom@18.2.0":
+=======
+"react-dom@^16.8 || ^17.0 || ^18.0", "react-dom@^17.0.2 || ^18.0.0-0", "react-dom@18.2.0":
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -1409,13 +1569,32 @@
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
+<<<<<<< HEAD
 "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.2.0":
+=======
+"react@^16.8 || ^17.0 || ^18.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.2.0":
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
   dependencies:
     "loose-envify" "^1.1.0"
 
+<<<<<<< HEAD
+=======
+"redux-thunk@^2.4.1":
+  "integrity" "sha512-+P3TjtnP0k/FEjcBL5FZpoovtvrTNT/UXd4/sluaSyrURlSlhLSzEdfsTBW7WsKB6yPvgd7q/iZPICFjW4o57Q=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/redux-thunk/-/redux-thunk-2.4.2.tgz"
+  "version" "2.4.2"
+
+"redux@^4", "redux@^4.1.2":
+  "integrity" "sha512-oSBmcKKIuIR4ME29/AeNUnl5L+hvBq7OaJWzaptTQJAntaPvxIJqfnjbaEiCzzaIz+XmVILfqAM3Ob0aXLPfjA=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/redux/-/redux-4.2.0.tgz"
+  "version" "4.2.0"
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
 "regenerator-runtime@^0.13.4":
   "integrity" "sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz"
@@ -1621,6 +1800,14 @@
   dependencies:
     "is-number" "^7.0.0"
 
+<<<<<<< HEAD
+=======
+"ts-toolbelt@^9.6.0":
+  "integrity" "sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w=="
+  "resolved" "http://npm.prod.uci.cu/repository/npm-proxy/ts-toolbelt/-/ts-toolbelt-9.6.0.tgz"
+  "version" "9.6.0"
+
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
 "tsconfig-paths@^3.14.1":
   "integrity" "sha512-fxDhWnFSLt3VuTwtvJt5fpwxBHg5AdKWMsgcPOOIilyjymcYVZoCQF8fvFRezCNfblEXmi+PcM1eYHeOAgXCOQ=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/tsconfig-paths/-/tsconfig-paths-3.14.1.tgz"
@@ -1682,7 +1869,11 @@
   dependencies:
     "punycode" "^2.1.0"
 
+<<<<<<< HEAD
 "use-sync-external-store@1.2.0":
+=======
+"use-sync-external-store@^1.2.0", "use-sync-external-store@1.2.0":
+>>>>>>> ea06fd29c9cc3b10a49f4a695873d760e592c5fd
   "integrity" "sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA=="
   "resolved" "http://nexus.prod.uci.cu/repository/npm-proxy/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz"
   "version" "1.2.0"
