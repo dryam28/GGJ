@@ -43,7 +43,7 @@ model  ParticipantNext{
 	//responsible data
 	responsible String
  	responsibleId String	
-	responsiblePhone String?
+	phone String?
 	date DateTime @default(now())
 	email String
 	ext Boolean @default(false)

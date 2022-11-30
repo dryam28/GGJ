@@ -19,18 +19,19 @@ export default async function handler(req, res) {
       const id_check = await prisma.participant.findFirst({
         where: { id: item.id }
       });
+      console.log(id_check)
       const email_check = await prisma.participant.findFirst({
         where: { email: item.email }
       });
-
+      console.log(email_check)
       if (id_check !== null || email_check !== null) {
         return true;
       }
 
       return false;
     });
-    console.log(user_found);
-    if(user_found===true){
+    // console.log(user_found);
+    if(user_found!==true){
       res.status(409);
       res.send('Error participant already found!');
       return;
