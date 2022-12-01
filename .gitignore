@@ -43,3 +43,6 @@ prisma/migrations/20221103124212_clouds/migration.sql
 prisma/migrations/20221115153338_mucosa/migration.sql
 prisma/migrations/20221121211100_aged/migration.sql
 prisma/migrations/20221126145002_next_phone/migration.sql
+prisma/migrations/20221126225621_milanes/migration.sql
+.gitignore
+sample.xlsx
